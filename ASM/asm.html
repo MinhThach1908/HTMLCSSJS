@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+        <p>A brief description of my work and experience.</p>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>A normal high school student. I am a member of my school's community club and also event clubs. We organize many projects
+                    and post the description on our fanpage. I enjoys playing basketball and football. I usually play with my friends on weekend.
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Team working</li>
+                    <li>C, HTML, CSS, JS coding</li>
+                    <li>Target, Plan making</li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <article>
+                <figure>
+                    <img src="images/letter.jpg" alt="Healing Letters" />
+                </figure>
+                <hgroup>
+                    <h3>Healing Letters</h3>
+                    <h3>No more Anxiety, Depression and Stress!</h3>
+                </hgroup>
+                <p>Feeling stress and always having anxiety, depression? Well this projects is where we collect letters from you,
+                    you can say anything in your letter like your stress,anxiety,...And we will send back you our advices as soon as possible!
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/valentine2.jpg" alt="Miscedence" />
+                </figure>
+                <hgroup>
+                    <h3>Miscedence</h3>
+                    <h3>Making handmade-roses for Valentines Day!</h3>
+                </hgroup>
+                <p>This project helps people making roses, flowers and totally handmade. If you don't have money to buy one, you can just make one.
+                    Have fun in creating flowers! 
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/photos.jpg" alt="Photographers" />
+                </figure>
+                <hgroup>
+                    <h3>Cameramans/Photgraphers future orientation</h3>
+                    <h3>Advicing paths, ways for future photographers</h3>
+                </hgroup>
+                <p>We invited some expert photographers to participate in the projects. They will mainly talk about future path
+                    for both cameramans and photographers. Paticipants can also interact with the experts to share they experimence.
+                </p>
+            </article>
+        </section>
+        <section class="contact">
+            <div id="page">
+                <h2>Contact</h2>
+                <form id="contactForm" onsubmit="return validateForm()"></form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

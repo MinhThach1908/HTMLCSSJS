@@ -24,7 +24,7 @@ nav ul {
     padding: 5px 0px 5px 30px;
 }
 nav li {
-    display: inline;
+    display: inline-block;
     margin-right: 40px;
 }
 nav li a {
