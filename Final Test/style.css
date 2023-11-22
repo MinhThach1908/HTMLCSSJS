@@ -29,15 +29,20 @@ input[type = text], input[type = tel], textarea {
     display: block;
     margin-bottom: 10px;
     width: 100%;
-    padding: 10pxpx;
+    padding: 8px;
     font-size: 20px;
+    margin-top: 20px;
     border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 input[type = radio] {
     margin-right: 5px;
 }
 
+#address {
+    height: 120px;
+}
 button {
     background-color: rgb(0, 170, 255);
     color: #fff;
