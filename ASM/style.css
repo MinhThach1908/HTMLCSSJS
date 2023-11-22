@@ -1,84 +1,69 @@
 body {
-    background-color: #9891915c;
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-header {
-    color: #000000;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 5% 0;
-    text-align: center;
-}
-
-header p {
-    text-align: center;
-}
-
-nav, footer {
-    clear: both;
-    color: rgb(248, 247, 247);
-    background-color: #000000bc;
-    height: 30px;
-}
 nav ul {
-    margin: 0px;
-    padding: 5px 0px 5px 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav li {
-    display: inline-block;
-    margin-right: 40px;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-nav a {
-    color: #ffffff;
+nav ul li a {
+    color: #fff;
     text-decoration: none;
 }
 
-nav li a:hover, nav li a.current {
-    color: #196eb4;
+header {
+    text-align: center;
+    padding: 50px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-.about {
-    background-color: #f2f2f2;
-    padding: 50px 0;
-    margin: 5% 0;
-}
-
-.about h2 {
+h1, h2 {
     text-align: center;
 }
 
-.skills {
-    background-color: #f2f2f2;
-}
-
-.skills h2 {
+form {
     text-align: center;
 }
 
-.projects {
-    background-color: #f2f2f2;
-    margin: 5% 0;
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
 }
-.projects h2 {
-    text-align: center;
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0; transform: translateY(50px); }
+    100% {opacity: 1; transform: translateY(50); }
 }
 
 article {
@@ -89,7 +74,7 @@ article {
 hgroup {
     margin-top: 40px;
 }
-figure img {
+figure {
     float: left;
     width: 290px;
     height: 220px;
@@ -98,39 +83,7 @@ figure img {
     border:  1px solid #eeeeee;
 }
 
-.contact {
-    text-align: center;
-    background-color: #f2f2f2;
+figure img {
+    max-width: 100%;
+    max-height: 100%;
 }
-
-form {
-    padding: 0 60px 65px 60px;
-  }
-  
-  label {
-    color: #141313;
-    display: block;
-    margin: 10px 0 10px 0;
-    font-size: 24px;
-  }
-
-  input[type='submit'], a.add {
-    background-color: #000000;
-    color: #f1edeb;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 10px;
-    margin-top: 10px;
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  input[type='submit']:hover, a.add:hover {
-    background-color: #d75359;
-    color: #f3dad1;
-    cursor: pointer;
-    box-shadow: none;
-    position: relative;
-    top: 1px;
-  }
