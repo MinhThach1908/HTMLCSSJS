@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Start from './Start';
 
 class ClassComponent extends Component{
     render(){
@@ -10,5 +11,4 @@ class ClassComponent extends Component{
         );
     }
 }
-
 export default ClassComponent;
