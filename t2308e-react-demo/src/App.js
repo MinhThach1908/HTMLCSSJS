@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import ClassComponent from '../components/ClassComponent';
-import Start from '../components/Start';
+import PropsDemo from './componets/PropsDemo'
 
 function App() {
+   // name : Nguyen Van A
+   // age : 18
+   // address : Ha Noi
+   // className : T2308E
   return (
-    <div>
-      <Start/>
-    </div>
+    <PropsDemo name ="Nguyen Van A" age="18" address="Ha Noi" className="T2308" />
   );
 }
 export default App;
