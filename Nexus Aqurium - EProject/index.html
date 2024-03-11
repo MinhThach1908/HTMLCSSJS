@@ -17,15 +17,17 @@
         <div class="header">
             <div class="container">
                 <div class="navbar">
-                    <img src="#" alt="NexusAquarium" width="#" height="#">
+                    <a href="index.html">
+                        <img src="images/z5223286222013_ce58e27bddbc1655067e78e6b5458e82.jpg" alt="NexusAquarium" class="logo">
+                    </a>
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Marine Life Animals</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="marin.html">Marine Life Animals</a></li>
                             <li><a href="#">Gallery</a></li>
                             <li><a href="#">Events</a></li>
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -37,11 +39,13 @@
                             species are living in our aquarium. We also organize school events for the purpose of study. Most
                             of the children love marine life animals.
                         </p>
-                        <a href="#" class="btn">Discover More &#10137;</a>
+                        <a href="#" class="button-link">
+                            Discover More &#10137;
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="featured">
             <div class="row">
                 <div class="col-2">
@@ -50,7 +54,9 @@
                        and more. Children love coming here to learn about the animals and we have collaborated with many 
                        primary, secondary schools.
                    </p>
-                   <a href="#" class="btn">Learn More</a>
+                   <a href="marin.html" class="button-link">
+                        Learn More
+                    </a>
                 </div>
                 <div class="col-2">
                    <img src="images/Marine life animals.jpg" alt="img">
@@ -66,8 +72,8 @@
                     <img src="images/jellyfish-aqua.jpg" alt="Jellyfish">
                     <img src="images/killerwhale-aqua.jpg" alt="Killerwhale">
                 </div>
+                <h2 class="title">Upcoming Events</h2>
                 <div class="row" id="event-list">
-                    <h2 class="title">Upcoming Events</h2>
                     <div class="col-4" data-target="#modal1">
                         <img src="images/event1.jpg" />
                         <h4 class="event-name">Big Fish, Little Fish</h4>
@@ -90,7 +96,9 @@
                             and school events!
                         </p>
                     </div>
-                    <a href="#" class="btn">Read More &#10137;</a>
+                    <a href="#" class="button-link">
+                        Read More &#10137;
+                    </a>
                 </div>
             </div>
         </div>
@@ -122,7 +130,7 @@
                   <div class="footer-col">
                      <h4>Get In Touch!</h4>
                      <br>
-                     <hr style>
+                     <hr>
                      <ul>
                         <li><a href="#">Address: FPT APTECH VIETNAM</a></li>
                         <li><a href="#">Email: aptech.fpt.edu.vn</a></li>
@@ -135,6 +143,7 @@
                      <h4>Social Media</h4>
                      <br>
                      <hr>
+                     <div class="Social-media">
                      <ul>
                         <li class="footer_li"><a href="#">
                             <img class="footer_img" src="images/Fb_Icon.png" width="42" height="40">
@@ -152,20 +161,26 @@
                             <img class="footer_img" src="images/pin.png" width="42" height="40">
                         </a></li>
                      </ul>
-                  </div>
-                  <div class="footer-col">
-                     <h4>About Us</h4>
-                     <ul>
-                        <li><a href="#">Feed Back</a></li>
-                     </ul>
-                  </div>
-                  <div class="footer-col">
-                     <h4>Follow Us</h4>
-                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
                      </div>
+                  </div>
+                  <div class="footer-col">
+                     <h4>Feedback</h4>
+                     <br>
+                     <hr>
+                     <form onsubmit="submitForm(event)">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id=" email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <h4>Developed By</h4>
+                    <br>
+                    <hr>
+                    <li><a href="#">Thach Quang Minh</a></li>
+                    <li><a href="#">Bui Duc Tri</a></li>
+                    <li><a href="#">Vu Tuan Anh</a></li>
+                    <li><a href="#">Dao Anh Tu</a></li>
+                    <li><a href="#">Truong Quang Minh</a></li>
                   </div>
                </div>
             </div>
