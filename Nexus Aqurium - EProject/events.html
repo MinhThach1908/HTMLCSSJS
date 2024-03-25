@@ -23,9 +23,16 @@
                     <nav>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="marin.html">Marine Life Animals</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="events.html">Events</a></li>
+                            <li id="Diff_list">
+                                <a href="#">Place to Visit
+                                    <b class="caret"></b>
+                                </a>
+                                <ul id="Drob_ul" class="menu2">
+                                    <li class="ul1"><a href="marine.html">Marine Life Animals</a></li>
+                                    <li class="ul2"><a href="#">Gallery</a></li>
+                                    <li class="ul3"><a href="events.html">Events</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="aboutus.html">About Us</a></li>
                         </ul>
@@ -69,10 +76,12 @@
                     <div class="col-4">
                         <img src="images/event3.jpg" />
                         <h4 class="event-name">Aquarium on Wheels</h4>
-                        <p>Our Aquarium educators come to YOU, bringing California marine inhabitants such as sharks, 
-                            sea stars, and anemones in this dynamic mobile tidepool exhibit. Great for festivals, fairs, 
-                            and school events!
-                        </p>
+                        <p>Schedule: 10h-11h March 31</p>
+                        <p>Hands-on experience by directly touching beutiful, colorful, unique sea creatures. During this 1-hour program, children can:</p>
+                        <p>– Touch different type of animals thorugh a pool</p>
+                        <p>– Learn about these animal's appearance</p>
+                        <p>– Create a cardboard model about the animals</p>
+                        <p>– Play with some sea creatures throughout minigames</p>
                     </div>
                     <a href="#" class="button-link">
                         Book Now
@@ -80,5 +89,92 @@
                 </div>
             </div>
         </div>
+        <footer class="footer">
+            <div class="footer-container">
+               <div class="row-footer">
+                  <div class="footer-col">
+                    <h4>Want Some More Info?</h4>
+                    <br>
+                    <hr>
+                    <ul>
+                       <li><a href="#">Home</a></li>
+                       <img src="images/line.png" width="300">
+                       <br>
+                       <li><a href="#">Marine Life Animals</a></li>
+                       <img src="images/line.png" width="300">
+                       <br>
+                       <li><a href="#">Gallery</a></li>
+                       <img src="images/line.png" width="300">
+                       <br>
+                       <li><a href="#">Events</a></li>
+                       <img src="images/line.png" width="300">
+                       <br>
+                       <li><a href="#">Privacy & Policy</a></li>
+                       <img src="images/line.png" width="300">
+                       <br>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                     <h4>Get In Touch!</h4>
+                     <br>
+                     <hr>
+                     <ul>
+                        <li><a href="#">Address: FPT APTECH VIETNAM</a></li>
+                        <li><a href="#">Email: aptech.fpt.edu.vn</a></li>
+                        <li><a href="#">Phone: (+84) 973 111 086</a></li>
+                        <li><a href="#">URL: https://aptech.fpt.edu.vn</a></li>
+                     </ul>
+                     <br>
+                     <br>
+                     <br>
+                  </div>   
+                  <div class="footer-col">
+                     <h4>Social Media</h4>
+                     <br>
+                     <hr>
+                     <div class="Social-media">
+                     <ul>
+                        <li class="footer_li"><a href="#">
+                            <img class="footer_img" src="images/Fb_Icon.png" width="42" height="40">
+                        </a></li>
+                        <li class="footer_li"><a href="#">
+                            <img class="footer_img" src="images/Tw_Icon.png" width="42" height="40">
+                        </a></li>
+                        <li class="footer_li"><a href="#">
+                            <img class="footer_img" src="images/Insta_Icon.png" width="42" height="40">
+                        </a></li>
+                        <li class="footer_li"><a href="#">
+                            <img class="footer_img" src="images/youtube.png" width="42" height="40">
+                        </a></li>
+                        <li class="footer_li"><a href="#">
+                            <img class="footer_img" src="images/pin.png" width="42" height="40">
+                        </a></li>
+                     </ul>
+                     </div>
+                  </div>
+                  <div class="footer-col">
+                     <h4>Feedback</h4>
+                     <br>
+                     <hr>
+                     <form onsubmit="submitForm(event)">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id=" email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Developed By</h4>
+                    <br>
+                    <hr>
+                    <li><a href="#">Thach Quang Minh</a></li>
+                    <li><a href="#">Bui Duc Tri</a></li>
+                    <li><a href="#">Vu Tuan Anh</a></li>
+                    <li><a href="#">Dao Anh Tu</a></li>
+                    <li><a href="#">Truong Quang Minh</a></li>
+                  </div>
+               </div>
+            </div>
+         </footer>
       </body>
 </html>
